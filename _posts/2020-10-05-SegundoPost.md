@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Aprendendo Python"
-date:   2020-10-05 15:04:18 -0500
+date:   2020-10-05 20:04:18 -0500
 categories: Programação
 ---
 

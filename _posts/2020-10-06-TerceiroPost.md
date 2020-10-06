@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tudo sobre Basquete"
-date:   2020-10-05 15:04:18 -0500
+date:   2020-10-06 12:04:18 -0500
 categories: Esporte
 ---
 
