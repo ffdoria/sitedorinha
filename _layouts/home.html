@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<article>
+    <header class="tit">
+        <h1>Postagens</h1>
+    </header>
+    <main>
+        <section class="links">
+            <h2>Links para os posts </h2>
+            <ul class="linktop">
+            {% for post in site.posts %}
+            <li> <a href ="{{ post.url | relative_url }} "> {{ post.title }} </a> </li> 
+            {% endfor %}
+            </ul>
+        </section>
+        <section class="previa">
+            <h2 >Data do post </h2>
+            <ul class = "datatop">
+                {% for post in site.posts %}
+                {{ post.date }} <br> 
+                {% endfor %}
+            </ul>
+        </section>
+        <section class="categ">
+            <h2 >Categoria do post </h2>
+            <ul class = "categtop">
+                {% for post in site.posts %}
+                {{ post.categories }}  <br> 
+                {% endfor %}
+            </ul>
+        </section>
+    </main>
+
+</article >
+<div>
+    <img src="'/assets/images/fotos2.jpg' | relative_url}}" >
+</div>
+
+    
+<footer>
+    <p> Site desenvolvido por Fernando Doria - 10772219</p>
+</footer>
+
+
+
